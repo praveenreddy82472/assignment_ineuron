@@ -1,0 +1,23 @@
+1.def exception():
+    a = int(input('Enter the number a:'))
+    b = int(input('Enter the number b:'))
+    try:
+        c = a/b
+        print(c,"Done")
+    except Exception as e:
+        print(e)
+exception()
+
+
+2.subjects=["Americans ","Indians "]
+verbs=["play ","watch "]
+objects=["Baseball ","Cricket "]
+
+print(subjects[0]+verbs[0]+objects[0])
+print(subjects[0]+verbs[0]+objects[1])
+print(subjects[0]+verbs[1]+objects[0])
+print(subjects[0]+verbs[1]+objects[1])
+print(subjects[1]+verbs[0]+objects[0])
+print(subjects[1]+verbs[0]+objects[1])
+print(subjects[1]+verbs[1]+objects[0])
+print(subjects[1]+verbs[1]+objects[1])
